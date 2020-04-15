@@ -1,0 +1,20 @@
+/** Few Things I'd like to add **/
+
+- More sounds
+- Bosses at every 5th level
+- Bosses give new abilities once killed
+- Introduce a new enemy for each world
+- Add lives and ways to pickup more
+- Better transitions
+- Different ways to get higher scores
+- Best Scores saved to system for later comparison
+- Speed running timer, how fast can you beat the game?
+- Unlocks for beating game
+- Various difficulty levels
+- Add source control
+
+** Custom images from users?
+
+Features Completed
+- Persistance health between rooms
+- Highest score shown in UI
