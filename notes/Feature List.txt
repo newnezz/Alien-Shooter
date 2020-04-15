@@ -11,10 +11,11 @@
 - Speed running timer, how fast can you beat the game?
 - Unlocks for beating game
 - Various difficulty levels
-- Add source control
+
 
 ** Custom images from users?
 
 Features Completed
 - Persistance health between rooms
 - Highest score shown in UI
+- Add source control
