@@ -2,26 +2,36 @@
 // You can write your code in this editor
 
 /** Player Movement **/
-// No Key Down
-if (keyboard_check(vk_nokey)) {
-	action_move("000010000", 0); //stops movement
-}
+
+// Stops player from moving outside of room and when pressing no key
+if (x<sprite_width/2) || (x>(room_width-(sprite_width/2)))
+|| (y<sprite_height/2) || (y>(room_height-(sprite_height/2)))
+|| (keyboard_check(vk_nokey)) {
+		//action_move("000010000", 0); //stops movement
+		//y += random_range(-1,1);
+		//x += random_range(-1,1);
+		//action_move(0,0);
+		var move = false;
+} else { move = true; }
 // Left Key Down
-if (keyboard_check(vk_left)) {
+if (keyboard_check(vk_left)) && move == true {
 	action_move("000100000", baseSpeed); // move left
 }
 // Right Key Down
-if (keyboard_check(vk_right)) {
+else if (keyboard_check(vk_right)) && move == true {
 	action_move("000001000", baseSpeed); //move right
 }
 // Down Key Down
-if (keyboard_check(vk_down)) {
+else if (keyboard_check(vk_down)) && move == true {
 	action_move("010000000", baseSpeed); //move down
 }
 // Up Key Down
-if (keyboard_check(vk_up)) {
+else if (keyboard_check(vk_up)) && move == true {
 	action_move("000000010", boostSpeed);//move up, higher speed
 	sprite_index = spr_planeBoost; //boost image
+}
+else {
+	action_move("000010000", 0);
 }
 
 

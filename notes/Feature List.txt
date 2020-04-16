@@ -3,7 +3,6 @@
 - More sounds
 - Bosses on every 5th level
 - Bosses give new abilities / perks
-	- Extended health
 	- Faster Shooting Rate
 	- Larger Bullets
 	- Shield
@@ -16,12 +15,12 @@
 - Different ways to get higher scores
 	- Points for shooting bullets
 	- Points for completing levels faster
-	- Points for picking up drops
 - Best Scores saved to system for later comparison
 - Speed running timer, how fast can you beat the game?
 - Unlocks for beating game
 - Various difficulty levels
 - Custom images from users?
+- Secret worlds?
 
 Features Completed
 - Persistant health between rooms
@@ -30,3 +29,5 @@ Features Completed
 - Added lives
 - More drops (Lives, bonus points)
 - High score saves upon death
+- Boss 1 gives you extended health once beat
+- Different ways to get points: point drops

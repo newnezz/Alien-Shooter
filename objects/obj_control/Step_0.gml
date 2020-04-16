@@ -6,3 +6,8 @@ if !instance_exists(obj_enemy1)
    {
    room_goto_next();
    }
+
+
+if (global.boss1Alive == false) {
+	global.maxHealth = 150;
+}
