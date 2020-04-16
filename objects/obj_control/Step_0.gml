@@ -1,4 +1,4 @@
-/// @description Checks if enemies exist
+/// @description Checks for Enemies
 if !instance_exists(obj_enemy1) 
 && !instance_exists(obj_enemy2) 
 && !instance_exists(obj_boss1)
@@ -6,4 +6,3 @@ if !instance_exists(obj_enemy1)
    {
    room_goto_next();
    }
-

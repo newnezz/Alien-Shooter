@@ -38,3 +38,20 @@ else if (global.userHitSprite == true && keyboard_check(vk_up) == false) {
 else if (global.userHitSprite == true && keyboard_check(vk_up) == true) {
 	sprite_index = spr_planeBoostHit;
 } 
+
+
+//Check for death
+if(global.playerLives<1) {
+	// If high score, adds it to game
+	if (score > global.highScore) {
+		global.highScore = score;
+		// Opens file, saves data, closes file
+		ini_open("savedata.ini");
+		ini_write_real("savegame", "score", global.highScore);
+		ini_close();
+	}
+	// Score to 0, kills game
+	action_set_score(0);
+	action_kill_object();
+	action_restart_game();
+}

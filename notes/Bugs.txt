@@ -1,0 +1,5 @@
+- Player can fly outside rooms
+- When on enemies, constant damage
+- Spawning too far up map when last kill is in that area
+- No points when killing boss
+- Sometimes have no health and dont die

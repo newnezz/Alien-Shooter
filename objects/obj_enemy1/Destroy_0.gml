@@ -1,12 +1,21 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 39261F79
-/// @DnDArgument : "code" "/// @description Insert description here$(13_10)// You can write your code in this editor$(13_10)$(13_10)dropCheck = floor(random_range(1, 10 + 1));$(13_10)$(13_10)if (dropCheck == 1) {$(13_10)	instance_create(x,y,obj_health);$(13_10)}"
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Drops
 
-dropCheck = floor(random_range(1, 10 + 1));
+// Gets random number between 1-100
+dropCheck = floor(random_range(1, 100 + 1));
 
-if (dropCheck == 1) {
+/** Each instance should only drop one **/
+// Drop for extra life 1%
+if (dropCheck <=1) {
+	instance_create(x,y,obj_extraLife);
+}
+// Drop for Health 3%
+else if (dropCheck <= 4) {
 	instance_create(x,y,obj_health);
 }
+// Drop extra points 5%
+else if (dropCheck <=9) {
+	instance_create(x,y,obj_extraPoints);
+} 
+
+
+

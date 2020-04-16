@@ -1,21 +1,32 @@
-/** Few Things I'd like to add **/
+/** Feature Dream List **/
 
 - More sounds
-- Bosses at every 5th level
-- Bosses give new abilities once killed
+- Bosses on every 5th level
+- Bosses give new abilities / perks
+	- Extended health
+	- Faster Shooting Rate
+	- Larger Bullets
+	- Shield
+	- Burst gun
 - Introduce a new enemy for each world
-- Add lives and ways to pickup more
+- More drops
+	- Special Abilities
+	- Varying Health
 - Better transitions
 - Different ways to get higher scores
+	- Points for shooting bullets
+	- Points for completing levels faster
+	- Points for picking up drops
 - Best Scores saved to system for later comparison
 - Speed running timer, how fast can you beat the game?
 - Unlocks for beating game
 - Various difficulty levels
-
-
-** Custom images from users?
+- Custom images from users?
 
 Features Completed
-- Persistance health between rooms
+- Persistant health between rooms
 - Highest score shown in UI
-- Add source control
+- Added source control
+- Added lives
+- More drops (Lives, bonus points)
+- High score saves upon death
