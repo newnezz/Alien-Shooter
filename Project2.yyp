@@ -98,7 +98,7 @@
             "Key": "16a8c3ae-6e26-421d-a529-5e955c01231b",
             "Value": {
                 "id": "4f08ba10-cdf6-42b6-9f11-7c6e55b47b10",
-                "resourcePath": "objects\\obj_control\\obj_control.yy",
+                "resourcePath": "objects\\obj_playRoomControl\\obj_playRoomControl.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -834,7 +834,7 @@
             "Key": "a9daf7f9-2dab-4580-a873-ca03cb4a2ba9",
             "Value": {
                 "id": "08bd9962-dffd-4e31-b3e3-e51eed8f3bdc",
-                "resourcePath": "objects\\obj_startClick\\obj_startClick.yy",
+                "resourcePath": "objects\\obj_mainMenuControl\\obj_mainMenuControl.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1071,6 +1071,14 @@
             }
         },
         {
+            "Key": "cd1bcf6e-f23a-4add-be04-645a9a4f52b2",
+            "Value": {
+                "id": "30bc4c7e-485a-45da-b681-e9b793304330",
+                "resourcePath": "sprites\\spr_Boss3Hit\\spr_Boss3Hit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cd7fea5c-e457-4868-ae3a-c5c6bb6086ba",
             "Value": {
                 "id": "c3df009b-0623-4b99-9097-148b8dc7a11e",
@@ -1199,6 +1207,14 @@
             }
         },
         {
+            "Key": "e1ae425c-96ba-48b0-8a7a-67e5da99fbe5",
+            "Value": {
+                "id": "5820b8f0-efd6-4b6e-8702-1e5f81afe0f8",
+                "resourcePath": "sprites\\spr_Boss3\\spr_Boss3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e2ea3634-be9b-4750-8ad4-3c751b974320",
             "Value": {
                 "id": "0f27e9c5-ea15-45e6-b70e-6819a4cebc21",
@@ -1319,6 +1335,14 @@
             }
         },
         {
+            "Key": "f1120015-4a10-4086-bf4d-f35d070f853a",
+            "Value": {
+                "id": "bd84004e-e0fc-4895-8c59-74866fd42a24",
+                "resourcePath": "objects\\obj_boss3\\obj_boss3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f156e8ee-1461-45f5-8653-1427e28de41d",
             "Value": {
                 "id": "52ce9edb-b2c3-40ec-90d4-c949387c0d6d",
@@ -1354,7 +1378,7 @@
             "Key": "f56afaec-2fed-4c60-91ff-310c18dc150e",
             "Value": {
                 "id": "e665488d-76d2-4558-84bd-e2e3e2573dd3",
-                "resourcePath": "objects\\obj_controlWinScreen\\obj_controlWinScreen.yy",
+                "resourcePath": "objects\\obj_winScreenControl\\obj_winScreenControl.yy",
                 "resourceType": "GMObject"
             }
         },

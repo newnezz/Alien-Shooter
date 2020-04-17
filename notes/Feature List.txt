@@ -1,6 +1,5 @@
 /** Feature Dream List **/
 
-- More sounds
 - Bosses on every 5th level
 - Bosses give new abilities / perks
 	- Larger Bullets
