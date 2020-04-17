@@ -2,10 +2,10 @@
 /// @DnDVersion : 1.1
 /// @DnDHash : 0DC07B65
 /// @DnDArgument : "path" "pth_boss1"
-/// @DnDArgument : "speed" "10"
+/// @DnDArgument : "speed" "global.enemySpeed"
 /// @DnDArgument : "atend" "path_action_reverse"
 /// @DnDSaveInfo : "path" "b0ed61fb-f3d9-4ba7-8eff-2e0d9f1801b7"
-path_start(pth_boss1, 10, path_action_reverse, false);
+path_start(pth_boss1, global.enemySpeed, path_action_reverse, false);
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

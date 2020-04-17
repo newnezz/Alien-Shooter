@@ -1,2 +1,2 @@
 /// @description Sets path
-action_path(path0, 2, 1, 0);
+action_path(path0, global.enemySpeed, 1, 0);

@@ -1,6 +1,6 @@
-// Lowers health
-
-health -= 15;
+// Health is lowered based on difficulty
+// enemyWepDmgRate determined by difficuty
+health -= 15 * global.enemyWepDmgRate;
 
 // Change sprite when hit
 global.userHitSprite = true;

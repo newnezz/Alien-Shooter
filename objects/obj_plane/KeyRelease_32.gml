@@ -1,3 +1,5 @@
+/// @description Shoot wep
+
 action_set_relative(0);
 var __b__;
 __b__ = action_if(canShoot);
@@ -11,7 +13,7 @@ action_create_object(obj_baseShot, 0, -15);
 action_set_relative(0);
 }
 action_sound(snd_yelloBeam, 0);
-action_set_alarm(1, 0);
+alarm_set(0, global.shootingRate)
 }
 }
 action_set_relative(0);

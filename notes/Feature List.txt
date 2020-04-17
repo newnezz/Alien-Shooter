@@ -3,7 +3,6 @@
 - More sounds
 - Bosses on every 5th level
 - Bosses give new abilities / perks
-	- Faster Shooting Rate
 	- Larger Bullets
 	- Shield
 	- Burst gun
@@ -18,9 +17,21 @@
 - Best Scores saved to system for later comparison
 - Speed running timer, how fast can you beat the game?
 - Unlocks for beating game
+	Unlock harder difficulties
+	Able to use previously unlocked weapons
+	Unlockables & Cheats
 - Various difficulty levels
+	-Buttons added, difficulty level does nothing so far
 - Custom images from users?
 - Secret worlds?
+	-Cheats and unlock buttons have been added, do nothing so far
+---Tougher to implement---
+- Advanced weapons?
+- Different movements?
+- Special Levels?
+- Different endings?
+- High scores should be dependent on difficulty, 
+  OR high difficulty levels give higher scores
 
 Features Completed
 - Persistant health between rooms
@@ -31,3 +42,10 @@ Features Completed
 - High score saves upon death
 - Boss 1 gives you extended health once beat
 - Different ways to get points: point drops
+- Boss 2 gives you a faster shooting rate
+- Difficulty buttons are available, with 5 different levels
+	- Very easy, easy, normal, hard, very hard
+	- Currently the differences are: how long drops last, enemy speed and damage
+- Also Added buttons for unlockables and cheats, however they currently do nothing
+- Added menu song, boss battle song and menu hover sounds
+	
