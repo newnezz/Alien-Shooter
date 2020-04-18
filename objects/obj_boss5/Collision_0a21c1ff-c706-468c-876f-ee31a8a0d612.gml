@@ -5,6 +5,7 @@ global.boss5Health --;
 
 // Kills Boss
 if (global.boss5Health<1) {
+	instance_destroy(obj_boss5Wep);
 	instance_destroy();
 }
 

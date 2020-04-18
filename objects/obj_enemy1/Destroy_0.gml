@@ -16,6 +16,14 @@ else if (dropCheck <= 4) {
 else if (dropCheck <=9) {
 	instance_create(x,y,obj_extraPoints);
 } 
+// Drop for Speed Boost 3%
+else if (dropCheck <= 12) {
+	instance_create(x,y,obj_speedBoost);
+}
+// Drop for Shoot Increase 3%
+else if (dropCheck <= 15) {
+	instance_create(x,y,obj_shootFaster);
+}
 
 
 

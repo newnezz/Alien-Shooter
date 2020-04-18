@@ -12,8 +12,10 @@ global.boss2Alive = true;
 global.boss3Alive = true;
 global.boss4Alive = true;
 global.boss5Alive = true;
-global.shootingRate = 15;
+global.shootingRate = 12;
 global.playerAlive = true;
+global.baseSpeed = 5;
+global.boostSpeed = 8;
 
 /** GAME DIFFICULTY VARS **/
 global.dropTime = 1; //Drops stay around

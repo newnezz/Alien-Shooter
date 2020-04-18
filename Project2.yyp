@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "082ce160-994b-4e85-aba4-b847fce35cf7",
+            "Value": {
+                "id": "c5eb81a3-6b25-40da-a16e-6714830b19ed",
+                "resourcePath": "objects\\obj_speedBoost\\obj_speedBoost.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "090a07ad-7d5d-46ec-b887-3d8ddd49df8c",
             "Value": {
                 "id": "4edfbdbc-27f3-49dc-b6b1-b4f086519887",
@@ -1079,6 +1087,14 @@
             }
         },
         {
+            "Key": "ba7fe63c-b038-47f3-9261-27631f193b70",
+            "Value": {
+                "id": "ee40f5ef-a2af-4fd2-9c46-b558392a0016",
+                "resourcePath": "objects\\obj_shootFaster\\obj_shootFaster.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bc2e11a6-c859-4f73-bdec-72328bbde17f",
             "Value": {
                 "id": "4eaa71ad-868a-4608-ac6a-86810e03e774",
@@ -1543,11 +1559,27 @@
             }
         },
         {
+            "Key": "f76e573c-0175-4429-a071-19ee29af2c21",
+            "Value": {
+                "id": "82885ef1-8ff7-4911-9944-5fe52c2a2228",
+                "resourcePath": "sprites\\spr_shootFaster\\spr_shootFaster.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f86754c5-55cb-4508-bfe4-477d263d6e9e",
             "Value": {
                 "id": "90872598-7d36-4edf-ac31-d30f43386cfa",
                 "resourcePath": "rooms\\rm_world4_level4\\rm_world4_level4.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f8b96c10-e686-4163-982d-1c48cb52b97e",
+            "Value": {
+                "id": "d7b68f8d-7171-4582-a863-806a1f982204",
+                "resourcePath": "sprites\\spr_speedBoost\\spr_speedBoost.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

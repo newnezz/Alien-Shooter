@@ -10,11 +10,11 @@ global.dropRate = 1;
 
    // ENEMIES
 // Enemy Health
-global.enemyHealthRate = 1;
+global.enemyHealthRate = 1.5;
 // Enemy Weapon Damage
 global.enemyWepDmgRate = 3;
 // Enemy Shot Speed
-global.enemyFireRate = 1;
+global.enemyFireRate = 1.5;
 // Enemy Speed
 global.enemySpeed = 8;
 

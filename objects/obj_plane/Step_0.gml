@@ -5,19 +5,19 @@
 
 // If Pressing Left Arrrow & Player is not to far left, move further to the left
 if (keyboard_check(vk_left)) && !(x<sprite_width/2) {
-	x -= baseSpeed;
+	x -= global.baseSpeed;
 }
 // If Pressing Right Arrrow & Player is not to far right, move further to the right
 if (keyboard_check(vk_right)) && !(x>(room_width-(sprite_width/2))) {
-	x += baseSpeed;
+	x += global.baseSpeed;
 }
 // If Pressing Down Arrrow & Player is not to far down, move further down
 if (keyboard_check(vk_down)) && !(y>(room_height-(sprite_height/2))) {
-	y += baseSpeed;
+	y += global.baseSpeed;
 }
 // If Pressing Up Arrrow & Player is not to far up, move further up
 if (keyboard_check(vk_up)) && !(y<sprite_height/2) {
-	y -= boostSpeed;
+	y -= global.boostSpeed;
 	sprite_index = spr_planeBoost; //boost image
 }
 // Else if no key is pressed, dont move at all
