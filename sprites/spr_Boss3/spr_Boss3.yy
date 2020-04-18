@@ -2,7 +2,7 @@
     "id": "e1ae425c-96ba-48b0-8a7a-67e5da99fbe5",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_Boss3",
+    "name": "spr_boss3",
     "For3D": false,
     "HTile": false,
     "VTile": false,

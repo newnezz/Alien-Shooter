@@ -8,12 +8,12 @@ enemyHealth--; // reduces enemyhealth
 
 // Enemy Dead
 if enemyHealth == 0 {
-	instance_create_layer(x + 0, y + 0, "Instances", obj_explosionAnimation);
+	instance_create_layer(x + 0, y + 0, "Instances", obj_explosion);
     instance_destroy();
     }
 // Enemy hit but not dead yet
 else if (enemyHealth < 3) {
-	sprite_index = spr_enemy_electric;
+	sprite_index = spr_enemy2Hit;
 	alarm_set(1, 15);
 }
 

@@ -15,6 +15,6 @@ if (global.boss1Health%5 == 0) {
 
 // Every 10 hits, flashes to indicate he is hurt
 if (global.boss1Health%10 == 0) {
-	sprite_index = spr_boss1_hit;
+	sprite_index = spr_boss1Hit;
 	alarm_set(1, 60);
 }

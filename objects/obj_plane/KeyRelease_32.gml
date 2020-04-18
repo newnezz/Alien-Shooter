@@ -9,7 +9,7 @@ if __b__
 canShoot = false;
 {
 action_set_relative(1);
-action_create_object(obj_baseShot, 0, -15);
+action_create_object(obj_planeWep1, 0, -15);
 action_set_relative(0);
 }
 action_sound(snd_yelloBeam, 0);

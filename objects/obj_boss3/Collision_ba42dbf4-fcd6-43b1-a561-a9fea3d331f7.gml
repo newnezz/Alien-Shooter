@@ -11,6 +11,6 @@ if (global.boss3Health%5 == 0) {
 }
 
 if (global.boss3Health%10 == 0) {
-	sprite_index = spr_Boss3Hit;
+	sprite_index = spr_boss3Hit;
 	alarm_set(1, 60);
 }

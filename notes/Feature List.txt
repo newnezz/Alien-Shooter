@@ -1,8 +1,6 @@
 /** Feature Dream List **/
 
 1.0 List
-- Bosses give new abilities / perks
-	- Shield
 - Introduce a new enemy for each world
 - Better transitions
 - Unlocks for beating game
@@ -51,4 +49,5 @@ Completed Features
 - Added menu song, boss battle song and menu hover sounds
 - Bosses on every 5th level
 - Defeating boss 3 gives you larger bullets
+- Defeating boss 4 gives you a shield
 	

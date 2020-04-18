@@ -16,7 +16,7 @@
         "8a5fb20f-6164-4bc2-a9da-b52b50198543"
     ],
     "filterType": "GMSprite",
-    "folderName": "Difficulty",
+    "folderName": "Difficulty Options",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

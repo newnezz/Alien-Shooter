@@ -34,7 +34,7 @@
             "Key": "01b77504-b192-4184-9181-d73c6f1cebdf",
             "Value": {
                 "id": "223e3fdc-b5a9-49d8-8d67-1661805159d1",
-                "resourcePath": "sprites\\spr_baseShot\\spr_baseShot.yy",
+                "resourcePath": "sprites\\spr_planeWep1\\spr_planeWep1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -74,7 +74,7 @@
             "Key": "0cf190dd-d2de-48d9-b89e-a5e2f77eb583",
             "Value": {
                 "id": "eb5c78fe-72ee-4520-92e1-fdfcf2504d8a",
-                "resourcePath": "sprites\\background1\\background1.yy",
+                "resourcePath": "sprites\\bck_mainMenu\\bck_mainMenu.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -138,7 +138,7 @@
             "Key": "1b7cb199-7cf1-4cd9-8f34-df6b21203db0",
             "Value": {
                 "id": "fe9813af-2da8-401d-9360-79907f7ad347",
-                "resourcePath": "sprites\\spr_explosionAnimation\\spr_explosionAnimation.yy",
+                "resourcePath": "sprites\\spr_explosion\\spr_explosion.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -226,7 +226,7 @@
             "Key": "2ed6fd9d-2758-41e7-a063-dfec58094a9d",
             "Value": {
                 "id": "8d991fdb-877e-4c20-9da9-e5c9adccbf42",
-                "resourcePath": "sprites\\spr_cheatsBtn\\spr_cheatsBtn.yy",
+                "resourcePath": "sprites\\spr_cheatBtn\\spr_cheatBtn.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -234,7 +234,7 @@
             "Key": "30737d5b-91db-43ae-ade4-9467c090f29d",
             "Value": {
                 "id": "0e26d3cf-40f3-494f-b11e-76f98a05feae",
-                "resourcePath": "sprites\\spr_cheatsBtnClick\\spr_cheatsBtnClick.yy",
+                "resourcePath": "sprites\\spr_cheatBtnHover\\spr_cheatBtnHover.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -314,7 +314,7 @@
             "Key": "3d3e93eb-4bd5-4fd0-9e6f-4e4240c2d1fa",
             "Value": {
                 "id": "496bbe98-4116-4882-b452-544ff270b1c2",
-                "resourcePath": "sprites\\spr_newGameBtnClick\\spr_newGameBtnClick.yy",
+                "resourcePath": "sprites\\spr_newGameBtnHover\\spr_newGameBtnHover.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -490,7 +490,7 @@
             "Key": "6218bd1c-c930-4e09-80de-af73e8b8313d",
             "Value": {
                 "id": "48aa9b65-bc92-41ac-abc5-fbc4aaee76af",
-                "resourcePath": "objects\\obj_explosionAnimation\\obj_explosionAnimation.yy",
+                "resourcePath": "objects\\obj_explosion\\obj_explosion.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -626,7 +626,7 @@
             "Key": "71bc286e-5c3c-4955-a259-a89f6254d40f",
             "Value": {
                 "id": "1c343107-d6fb-4922-9543-a12f6e991969",
-                "resourcePath": "sprites\\spr_plane_hit\\spr_plane_hit.yy",
+                "resourcePath": "sprites\\spr_planeHit\\spr_planeHit.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -658,7 +658,7 @@
             "Key": "75f786c0-8b0a-4897-bb8b-1e4ab0453a2e",
             "Value": {
                 "id": "a036dbe0-ad3b-47ed-9488-862e4d7fe1e5",
-                "resourcePath": "sprites\\spr_enemylaser\\spr_enemylaser.yy",
+                "resourcePath": "sprites\\spr_enemy2Wep\\spr_enemy2Wep.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -666,7 +666,7 @@
             "Key": "7b45fadc-3f3a-471c-961d-6d6a7b6ff3b4",
             "Value": {
                 "id": "2f62b33a-824c-4322-afc2-5a25d09cb2f1",
-                "resourcePath": "objects\\obj_unlockBtn\\obj_unlockBtn.yy",
+                "resourcePath": "objects\\obj_unlocksBtn\\obj_unlocksBtn.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1002,7 +1002,7 @@
             "Key": "bc2e11a6-c859-4f73-bdec-72328bbde17f",
             "Value": {
                 "id": "4eaa71ad-868a-4608-ac6a-86810e03e774",
-                "resourcePath": "sprites\\spr_unlocksBtnClick\\spr_unlocksBtnClick.yy",
+                "resourcePath": "sprites\\spr_unlocksBtnHover\\spr_unlocksBtnHover.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1106,7 +1106,7 @@
             "Key": "ca57d0fc-d701-404d-aab0-7f5ab47ff461",
             "Value": {
                 "id": "9d171a43-2229-47b8-be42-54a473b4748d",
-                "resourcePath": "sprites\\bck_3\\bck_3.yy",
+                "resourcePath": "sprites\\bck_3Fore\\bck_3Fore.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1138,7 +1138,7 @@
             "Key": "cd1bcf6e-f23a-4add-be04-645a9a4f52b2",
             "Value": {
                 "id": "30bc4c7e-485a-45da-b681-e9b793304330",
-                "resourcePath": "sprites\\spr_Boss3Hit\\spr_Boss3Hit.yy",
+                "resourcePath": "sprites\\spr_boss3Hit\\spr_boss3Hit.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1178,7 +1178,7 @@
             "Key": "d0280636-94fb-4d30-bac2-d167d303fe7b",
             "Value": {
                 "id": "8eafa2dd-a385-47b2-a84b-d4e5447319c9",
-                "resourcePath": "objects\\obj_baseShot\\obj_baseShot.yy",
+                "resourcePath": "objects\\obj_planeWep1\\obj_planeWep1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1274,7 +1274,7 @@
             "Key": "e1ae425c-96ba-48b0-8a7a-67e5da99fbe5",
             "Value": {
                 "id": "5820b8f0-efd6-4b6e-8702-1e5f81afe0f8",
-                "resourcePath": "sprites\\spr_Boss3\\spr_Boss3.yy",
+                "resourcePath": "sprites\\spr_boss3\\spr_boss3.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1282,7 +1282,7 @@
             "Key": "e2ea3634-be9b-4750-8ad4-3c751b974320",
             "Value": {
                 "id": "0f27e9c5-ea15-45e6-b70e-6819a4cebc21",
-                "resourcePath": "objects\\obj_newCheatsBtn\\obj_newCheatsBtn.yy",
+                "resourcePath": "objects\\obj_cheatBtn\\obj_cheatBtn.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1330,7 +1330,7 @@
             "Key": "ead3fea5-a82a-49ba-8590-6415527eb7b0",
             "Value": {
                 "id": "474ddb3a-fddc-49c4-8aea-28882921bf74",
-                "resourcePath": "sprites\\spr_boss1_hit\\spr_boss1_hit.yy",
+                "resourcePath": "sprites\\spr_boss1Hit\\spr_boss1Hit.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1362,7 +1362,7 @@
             "Key": "ed20c3fb-66e7-4dcd-8e8e-d66b71a430d6",
             "Value": {
                 "id": "3d2fbda0-ebc5-4af0-8f73-b5d8830367e2",
-                "resourcePath": "sprites\\spr_enemy_electric\\spr_enemy_electric.yy",
+                "resourcePath": "sprites\\spr_enemy2Hit\\spr_enemy2Hit.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1370,7 +1370,7 @@
             "Key": "ed74924b-822f-489b-afbc-8d5cb78d0264",
             "Value": {
                 "id": "898eda18-bc40-4633-aad6-d62894c72323",
-                "resourcePath": "sprites\\back_winScreen\\back_winScreen.yy",
+                "resourcePath": "sprites\\bck_winScreen\\bck_winScreen.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1418,7 +1418,7 @@
             "Key": "f4386f2e-5dbd-4ee1-98ec-24003727ec47",
             "Value": {
                 "id": "4b5cade4-ed3c-4dfc-a0b6-6e07d084702f",
-                "resourcePath": "sprites\\sprite18\\sprite18.yy",
+                "resourcePath": "sprites\\spr_boss1Wep\\spr_boss1Wep.yy",
                 "resourceType": "GMSprite"
             }
         },
