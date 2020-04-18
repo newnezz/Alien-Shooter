@@ -6,6 +6,9 @@ global.playerLives = 3;
 global.highScore = 0;
 global.boss1Alive = true;
 global.boss2Alive = true;
+global.boss3Alive = true;
+global.boss4Alive = true;
+global.boss5Alive = true;
 global.shootingRate = 15;
 
 // Variables regarding game difficulty

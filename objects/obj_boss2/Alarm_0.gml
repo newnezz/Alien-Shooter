@@ -1,23 +1,2 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 1B1686F3
-/// @DnDArgument : "code" "/// @description Insert description here$(13_10)// You can write your code in this editor$(13_10)"
-/// @description Insert description here
-// You can write your code in this editor
-
-/// @DnDAction : YoYo Games.Instances.Create_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 3D05423E
-/// @DnDArgument : "xpos" "(sprite_width/2)"
-/// @DnDArgument : "xpos_relative" "1"
-/// @DnDArgument : "ypos" "(sprite_height+10)"
-/// @DnDArgument : "ypos_relative" "1"
-/// @DnDArgument : "objectid" "obj_boss1Wep"
-/// @DnDSaveInfo : "objectid" "a84463c4-7ba5-4f7f-8055-b25e53046c08"
-instance_create_layer(x + (sprite_width/2), y + (sprite_height+10), "Instances", obj_boss1Wep);
-
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
-/// @DnDVersion : 1
-/// @DnDHash : 219CF994
-/// @DnDArgument : "steps" "random_range(15,45)"
+instance_create(obj_boss2.x, obj_boss2.y+20, obj_boss1Wep);
 alarm_set(0, random_range(15,45));

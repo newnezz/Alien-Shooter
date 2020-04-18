@@ -3,34 +3,25 @@
 
 /** Player Movement **/
 
-// Stops player from moving outside of room and when pressing no key
-if (x<sprite_width/2) || (x>(room_width-(sprite_width/2)))
-|| (y<sprite_height/2) || (y>(room_height-(sprite_height/2)))
-|| (keyboard_check(vk_nokey)) {
-		//action_move("000010000", 0); //stops movement
-		//y += random_range(-1,1);
-		//x += random_range(-1,1);
-		//action_move(0,0);
-		var move = false;
-} else { move = true; }
-// Left Key Down
-if (keyboard_check(vk_left)) && move == true {
-	action_move("000100000", baseSpeed); // move left
+// If Pressing Left Arrrow & Player is not to far left, move further to the left
+if (keyboard_check(vk_left)) && !(x<sprite_width/2) {
+	x -= baseSpeed;
 }
-// Right Key Down
-else if (keyboard_check(vk_right)) && move == true {
-	action_move("000001000", baseSpeed); //move right
+// If Pressing Right Arrrow & Player is not to far right, move further to the right
+if (keyboard_check(vk_right)) && !(x>(room_width-(sprite_width/2))) {
+	x += baseSpeed;
 }
-// Down Key Down
-else if (keyboard_check(vk_down)) && move == true {
-	action_move("010000000", baseSpeed); //move down
+// If Pressing Down Arrrow & Player is not to far down, move further down
+if (keyboard_check(vk_down)) && !(y>(room_height-(sprite_height/2))) {
+	y += baseSpeed;
 }
-// Up Key Down
-else if (keyboard_check(vk_up)) && move == true {
-	action_move("000000010", boostSpeed);//move up, higher speed
+// If Pressing Up Arrrow & Player is not to far up, move further up
+if (keyboard_check(vk_up)) && !(y<sprite_height/2) {
+	y -= boostSpeed;
 	sprite_index = spr_planeBoost; //boost image
 }
-else {
+// Else if no key is pressed, dont move at all
+if keyboard_check(vk_nokey) {
 	action_move("000010000", 0);
 }
 

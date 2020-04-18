@@ -1,11 +1,11 @@
 Current Bugs
-- Player can fly outside rooms
 - When on enemies, constant damage
 - Spawning too far up map when last kill is in that area
-
+- Bosses are not fully working..
 
 
 Fixed bugs
 - Game crashing due to plane object syntax error
 - Fixed plane not dying when health was below 0
 - No points when killing boss
+- Player movement fixed, cannot move outside of room

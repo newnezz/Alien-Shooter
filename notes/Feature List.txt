@@ -1,29 +1,31 @@
 /** Feature Dream List **/
 
-- Bosses on every 5th level
+1.0 List
 - Bosses give new abilities / perks
-	- Larger Bullets
 	- Shield
-	- Burst gun
 - Introduce a new enemy for each world
-- More drops
-	- Special Abilities
-	- Varying Health
 - Better transitions
-- Different ways to get higher scores
-	- Points for shooting bullets
-	- Points for completing levels faster
-- Best Scores saved to system for later comparison
-- Speed running timer, how fast can you beat the game?
 - Unlocks for beating game
 	Unlock harder difficulties
 	Able to use previously unlocked weapons
 	Unlockables & Cheats
-- Various difficulty levels
+	- Various difficulty levels
 	-Buttons added, difficulty level does nothing so far
+	
+	---
+Add ons
+- More drops
+	- Special Abilities
+	- Varying Health drops
+- Different ways to get higher scores
+	- Points for shooting bullets?
+	- Points for completing levels faster
+- Best Scores saved to system for later comparison
+- Speed running timer, how fast can you beat the game?
 - Custom images from users?
 - Secret worlds?
 	-Cheats and unlock buttons have been added, do nothing so far
+
 ---Tougher to implement---
 - Advanced weapons?
 - Different movements?
@@ -32,7 +34,7 @@
 - High scores should be dependent on difficulty, 
   OR high difficulty levels give higher scores
 
-Features Completed
+Completed Features
 - Persistant health between rooms
 - Highest score shown in UI
 - Added source control
@@ -47,4 +49,6 @@ Features Completed
 	- Currently the differences are: how long drops last, enemy speed and damage
 - Also Added buttons for unlockables and cheats, however they currently do nothing
 - Added menu song, boss battle song and menu hover sounds
+- Bosses on every 5th level
+- Defeating boss 3 gives you larger bullets
 	
