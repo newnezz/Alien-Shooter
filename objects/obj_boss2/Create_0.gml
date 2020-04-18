@@ -1,20 +1,8 @@
-/// @DnDAction : YoYo Games.Paths.Start_Path
-/// @DnDVersion : 1.1
-/// @DnDHash : 0DC07B65
-/// @DnDArgument : "path" "pth_boss1"
-/// @DnDArgument : "speed" "global.enemySpeed"
-/// @DnDArgument : "atend" "path_action_reverse"
-/// @DnDSaveInfo : "path" "b0ed61fb-f3d9-4ba7-8eff-2e0d9f1801b7"
-path_start(pth_boss1, global.enemySpeed, path_action_reverse, false);
+/// @description Path, Alarm0, BossHealth
 
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
-/// @DnDVersion : 1
-/// @DnDHash : 352FE535
-/// @DnDArgument : "steps" "random_range(15,45)"
+// Sets Path
+path_start(pth_boss, global.enemySpeed, path_action_reverse, false);
+// Sets Alarm for shooting weapon
 alarm_set(0, random_range(15,45));
-
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 25B25313
-/// @DnDArgument : "code" "global.boss2Health = 100;"
+// Sets Boss Health
 global.boss2Health = 100;

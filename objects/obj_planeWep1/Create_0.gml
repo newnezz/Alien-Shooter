@@ -1,4 +1,4 @@
-action_move("000000010", 15);
+/// @description Bonus if B3 Defeated
 
 // If Boss 3 is defeated, bullets are larger
 if (global.boss3Alive == false) {

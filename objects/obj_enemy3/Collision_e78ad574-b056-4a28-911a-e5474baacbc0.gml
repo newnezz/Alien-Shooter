@@ -1,5 +1,4 @@
-/// @description Killed on 1 hit
+/// @description Destroys instance
 
-// One hit kill
 instance_create_layer(x,y,"Instances",obj_explosion);
 instance_destroy();

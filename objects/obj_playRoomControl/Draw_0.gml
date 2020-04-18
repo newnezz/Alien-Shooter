@@ -12,4 +12,5 @@ if (room!=rm_winScreen) {
 
 	//Lives
 	draw_text(10, room_height*.9, "Lives: " + string(global.playerLives));
+
 }

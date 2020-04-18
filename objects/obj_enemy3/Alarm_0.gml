@@ -1,4 +1,4 @@
-/// @description Randomly shooting 
+/// @description Burst Shots
 
 // This runs 5 times
 for (var i = 0; i < 5; i += 1) {

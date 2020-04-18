@@ -23,7 +23,7 @@
         "0bbb10c0-7663-40ef-a350-aa8c15addf81"
     ],
     "filterType": "GMSprite",
-    "folderName": "enemies",
+    "folderName": "Enemies",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

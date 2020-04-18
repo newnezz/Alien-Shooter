@@ -1,19 +1,20 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description  Boss Damage
+
+// Reduces Health
 global.boss1Health --;
 
-// Kills him once health is gone
+// Kills Boss
 if (global.boss1Health<1) {
 	instance_destroy();
 	score += 500;
 }
 
-// Every five hits, makes a sound
+// Sound Effect
 if (global.boss1Health%5 == 0) {
 	audio_play_sound(snd_explosion, 1, false);
 }
 
-// Every 10 hits, flashes to indicate he is hurt
+// Damage Visual
 if (global.boss1Health%10 == 0) {
 	sprite_index = spr_boss1Hit;
 	alarm_set(1, 60);

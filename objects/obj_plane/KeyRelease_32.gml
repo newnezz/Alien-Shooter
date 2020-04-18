@@ -12,7 +12,7 @@ action_set_relative(1);
 action_create_object(obj_planeWep1, 0, -15);
 action_set_relative(0);
 }
-action_sound(snd_yelloBeam, 0);
+action_sound(snd_pew, 0);
 alarm_set(0, global.shootingRate)
 }
 }

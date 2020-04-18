@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Normal Sprite
 
 sprite_index = spr_cheatBtn;

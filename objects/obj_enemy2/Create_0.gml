@@ -1,7 +1,7 @@
 /// @description Path, Health, Alarm 0
 
 // Sets path
-action_path(path0, global.enemySpeed, 1, 0);
+action_path(pth_enemies, global.enemySpeed, 1, 0);
 // Sets enemy health
 enemyHealth = 3;
 // Sets alarm for 

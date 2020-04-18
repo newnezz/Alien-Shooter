@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Movement
 
 // Sets up coordinates only when plane exists
 if instance_exists(obj_plane) {

@@ -1,5 +1,8 @@
 /// @description Inital Game Setup
 
+// Stops all previous music
+audio_stop_all();
+
 // Global Variables
 global.maxHealth = 100;
 global.playerLives = 3;
@@ -10,32 +13,23 @@ global.boss3Alive = true;
 global.boss4Alive = true;
 global.boss5Alive = true;
 global.shootingRate = 15;
+global.playerAlive = true;
 
-// Variables regarding game difficulty
-//How long do drops stay around?
-global.dropTime = 1;
-//How often to drops...drop?
-global.dropRate = 1;
-//How much health do the enemies have?
-global.enemyHealthRate = 1;
-//How much damage do their weapons do?
-global.enemyWepDmgRate = 1;
-//How often do they shoot?
-global.enemyFireRate = 1;
-//How fast do they move?
-global.enemySpeed = 1;
+/** GAME DIFFICULTY VARS **/
+global.dropTime = 1; //Drops stay around
+global.dropRate = 1; //Drops how often
+global.enemyHealthRate = 1; //Enemy Health
+global.enemyWepDmgRate = 1; //Enemy Wep Dmg
+global.enemyFireRate = 1; //Enemy Shooting Speed
+global.enemySpeed = 1; //Enemy Movement
 
+/** Other Possible measures of difficulty
+- Different movements
+- Special moves / weapons
+- Harder Levels
+**/
 
 // Loads High Score
 ini_open("savedata.ini");
 global.highScore = ini_read_real("savegame", "score", 0);
 ini_close();
-
-/** Other Possible Difficulty Variables 
-//How slow do you move?
-//---Tougher to implement---
-//Advanced weapons?
-//Different movements?
-//Special Levels?
-//Different endings?
-**/

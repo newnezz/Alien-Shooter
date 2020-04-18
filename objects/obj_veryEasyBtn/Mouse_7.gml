@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Selects Button
 
 
 // Sets variable difficulties
@@ -21,4 +20,4 @@ global.enemyFireRate = 1;
 global.enemySpeed = 1;
 
 // Go to first room
-room_goto_next();
+room_goto(rm_world1_level1);

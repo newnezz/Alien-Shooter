@@ -1,4 +1,4 @@
-/// @description score, snd, anim.
+/// @description Destroys instance
 
 action_set_relative(1);
 action_sound(snd_explosion, 0); //sound

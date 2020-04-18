@@ -5,16 +5,6 @@
     "name": "obj_boss1Wep",
     "eventList": [
         {
-            "id": "715c70f1-548d-4947-8767-a0d5bbd3afc6",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "a84463c4-7ba5-4f7f-8055-b25e53046c08"
-        },
-        {
             "id": "47433372-3785-47ae-93ff-a0c49f1a23eb",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -42,6 +32,16 @@
             "collisionObjectId": "a47f4d43-7690-4b0b-952e-c0b6bdeed4c3",
             "enumb": 0,
             "eventtype": 4,
+            "m_owner": "a84463c4-7ba5-4f7f-8055-b25e53046c08"
+        },
+        {
+            "id": "e55de48f-6678-46af-8aec-16f7cde74558",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "a84463c4-7ba5-4f7f-8055-b25e53046c08"
         }
     ],

@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Selects Button
 
 sprite_index = spr_newGameBtn;
 room_goto(rm_chooseDiff);

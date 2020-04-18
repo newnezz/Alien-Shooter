@@ -1,3 +1,3 @@
-/// @description Destroys after 10 seconds
+/// @description Destroys instance
 
 instance_destroy();

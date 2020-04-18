@@ -1,4 +1,4 @@
-/// @description Weapon shot
+/// @description Weapon 
 
 action_set_relative(1);
 

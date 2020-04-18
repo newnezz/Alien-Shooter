@@ -1,7 +1,7 @@
-/// @description Movement & Sprite
-// You can write your code in this editor
+/// @description Movement, Sprite, Death
 
-/** Player Movement **/
+
+/** PLAYER MOVEMENT **/
 
 // If Pressing Left Arrrow & Player is not to far left, move further to the left
 if (keyboard_check(vk_left)) && !(x<sprite_width/2) {
@@ -26,22 +26,38 @@ if keyboard_check(vk_nokey) {
 }
 
 
-/** Handles Sprite Changing **/
+/** HANDLES SPRITE CHANGING **/
+
 // User not hit, player not boosting
-if (global.userHitSprite == false && keyboard_check(vk_up) == false) {
+if (global.userHitSprite == false && keyboard_check(vk_up) == false
+ && global.playerAlive == true) {
 	sprite_index = spr_plane;
 } 
 // User is hit,  player not boosting
-else if (global.userHitSprite == true && keyboard_check(vk_up) == false) {
-	sprite_index = spr_plane_hit;
+else if (global.userHitSprite == true && keyboard_check(vk_up) == false
+ && global.playerAlive == true) {
+	sprite_index = spr_planeHit;
 } 
 // User is hit,  player is boosting
-else if (global.userHitSprite == true && keyboard_check(vk_up) == true) {
+else if (global.userHitSprite == true && keyboard_check(vk_up) == true
+ && global.playerAlive == true) {
 	sprite_index = spr_planeBoostHit;
 } 
 
 
-//Check for death
+/** CHECKS FOR DEATH **/
+
+// Lost a life
+if (health <= 0) {
+	global.playerAlive = false;
+	sprite_index = spr_nothing;
+	instance_create(x,y,obj_explosion);
+	alarm_set(2, room_speed * 3);
+	global.playerLives--;
+	health = 100;
+}
+
+// No more lives
 if(global.playerLives<1) {
 	// If high score, adds it to game
 	if (score > global.highScore) {

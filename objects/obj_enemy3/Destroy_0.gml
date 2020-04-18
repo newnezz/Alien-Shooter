@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Handles Drops
 
 // Gets random number between 1-100
 dropCheck = floor(random_range(1, 100 + 1));

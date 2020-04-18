@@ -15,7 +15,7 @@
         "3ca26ee2-f778-4cc9-a9b8-9338d6979fdc"
     ],
     "filterType": "GMObject",
-    "folderName": "UI",
+    "folderName": "Interface",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -1,4 +1,5 @@
 /// @description Variables
+
 canShoot = true;
 baseSpeed = 5;
 boostSpeed = 8;

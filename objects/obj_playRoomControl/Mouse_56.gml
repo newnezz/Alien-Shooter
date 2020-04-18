@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Win Screen 
 
 if (room=rm_winScreen) {
 	score = 0;

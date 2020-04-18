@@ -5,16 +5,6 @@
     "name": "obj_enemy2Wep",
     "eventList": [
         {
-            "id": "baedeac9-d8f1-4149-aea3-f5132d7bdf8e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "ecdd5408-e036-4c78-9f47-a4625690172b"
-        },
-        {
             "id": "0601ccf6-5fd0-415d-a5bb-afb00ac0122e",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -42,6 +32,16 @@
             "collisionObjectId": "a47f4d43-7690-4b0b-952e-c0b6bdeed4c3",
             "enumb": 0,
             "eventtype": 4,
+            "m_owner": "ecdd5408-e036-4c78-9f47-a4625690172b"
+        },
+        {
+            "id": "2fff81cc-73af-40f3-b94a-5209c70e632e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "ecdd5408-e036-4c78-9f47-a4625690172b"
         }
     ],

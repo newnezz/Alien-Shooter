@@ -1,1 +1,3 @@
-action_kill_object();
+/// @description Destroys instance
+
+instance_destroy();

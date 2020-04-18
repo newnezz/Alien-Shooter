@@ -1,4 +1,3 @@
-/// @description Not sure
-// You can write your code in this editor
+/// @description Resets to Normal Sprite
 
 global.userHitSprite = false;

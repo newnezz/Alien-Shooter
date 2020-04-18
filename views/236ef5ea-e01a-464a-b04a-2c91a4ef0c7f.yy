@@ -9,10 +9,11 @@
         "ddf26a88-1cb8-4bae-85d6-faf33bb4f988",
         "21efc6ef-666c-46d6-9602-381b3e922e80",
         "c5c6460c-f711-49ac-a437-f506012e1026",
-        "01b77504-b192-4184-9181-d73c6f1cebdf"
+        "01b77504-b192-4184-9181-d73c6f1cebdf",
+        "910c157c-bd94-4f37-8d52-81946eb57311"
     ],
     "filterType": "GMSprite",
-    "folderName": "player",
+    "folderName": "Player",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

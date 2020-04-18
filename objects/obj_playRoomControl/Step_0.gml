@@ -1,17 +1,30 @@
-/// @description Enemy, Boss & Music Check
+/// @description Rooms, Winning, Music
+
+/** ROOM PROGRESSION **/
+// This handles World 1 Level 1 - World 5 Level 4
 if !instance_exists(obj_enemy1) 
-&& !instance_exists(obj_enemy2) 
+&& !instance_exists(obj_enemy2)
+&& !instance_exists(obj_enemy3)
 && !instance_exists(obj_boss1)
 && !instance_exists(obj_boss2)
 && !instance_exists(obj_boss3)
 && !instance_exists(obj_boss4)
-&& !instance_exists(obj_boss5)
-&& room!=rm_winScreen
+&& room != rm_world5_level5
+&& room != rm_winScreen
+&& room != rm_first_menu
+&& room != rm_chooseDiff
    {
    room_goto_next();
    }
+// This handles World 5 Level 5 - Last Level
+if (room == rm_world5_level5 && !instance_exists(obj_boss5)) {
+	room_goto(rm_winScreen);
+}
+//Note: Menus are controlled by buttons
+//      Win screen is controlled by mouse click
 
-// Logic for Win Game Room
+
+/** LOGIC FOR WINNING THE GAME **/
 if (room==rm_winScreen) {
 	// Gets rid of drops
 	if instance_exists(obj_extraPoints) { instance_destroy(obj_extraPoints); }
@@ -34,8 +47,14 @@ if audio_is_playing(snd_menuSong) {
     audio_stop_sound(snd_menuSong);
 }
 
-// If boss room, stop main background music, play boss music 
-if (room == rm_world1_level5 || room == rm_world2_level5 
+// First, is the player dead? If so, stop all audio.
+if (global.playerAlive == false) { 
+	audio_stop_sound(snd_bossBattle);
+	audio_stop_sound(snd_backgroundMusic);
+	alarm_set(0,1);
+}
+// Else if in boss room, stop main background music, play boss music 
+else if (room == rm_world1_level5 || room == rm_world2_level5 
    || room == rm_world3_level5 || room == rm_world4_level5
    || room == rm_world5_level5) 
    {
