@@ -52,6 +52,8 @@ if (health <= 0) {
 	global.playerAlive = false;
 	sprite_index = spr_nothing;
 	instance_create(x,y,obj_explosion);
+	x = room_width / 2;
+	y = room_height - 20;
 	alarm_set(2, room_speed * 3);
 	global.playerLives--;
 	health = 100;

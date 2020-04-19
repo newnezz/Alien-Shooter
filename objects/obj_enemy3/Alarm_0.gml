@@ -6,4 +6,4 @@ instance_create_layer(x + (sprite_width/2), y + (sprite_height+5), "Instances", 
 }
 
 // Alarm reset to go back through loop after random time between 15-300 steps
-alarm_set(0,random_range(15,300));
+alarm_set(0,global.enemyFireRate);

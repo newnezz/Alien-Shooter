@@ -14,15 +14,16 @@ global.boss4Alive = true;
 global.boss5Alive = true;
 global.shootingRate = 12;
 global.playerAlive = true;
-global.baseSpeed = 5;
+global.baseSpeed = 6;
 global.boostSpeed = 8;
+global.scoreRate = 1;
 
 /** GAME DIFFICULTY VARS **/
 global.dropTime = 1; //Drops stay around
 global.dropRate = 1; //Drops how often
 global.enemyHealthRate = 1; //Enemy Health
 global.enemyWepDmgRate = 1; //Enemy Wep Dmg
-global.enemyFireRate = 1; //Enemy Shooting Speed
+global.enemyFireRate = random_range(35,70); //Enemy Shooting Speed
 global.enemySpeed = 1; //Enemy Movement
 
 /** Other Possible measures of difficulty

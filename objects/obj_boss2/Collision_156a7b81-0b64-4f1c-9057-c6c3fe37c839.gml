@@ -5,6 +5,7 @@ global.boss2Health --;
 
 // Kills Boss
 if (global.boss2Health<1) {
+	score += (750 * global.scoreRate);
 	instance_destroy(obj_boss2Wep);
 	instance_destroy();
 }

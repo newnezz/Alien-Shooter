@@ -13,6 +13,7 @@ if !instance_exists(obj_enemy1)
 && room != rm_winScreen
 && room != rm_first_menu
 && room != rm_chooseDiff
+&& paused == false
    {
    room_goto_next();
    }

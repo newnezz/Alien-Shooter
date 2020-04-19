@@ -1,4 +1,4 @@
-/// @description Score, Health, Lives
+/// @description Score, Health, Lives, Pause
 
 if (room!=rm_winScreen) {
 	
@@ -13,4 +13,16 @@ if (room!=rm_winScreen) {
 	//Lives
 	draw_text(10, room_height*.9, "Lives: " + string(global.playerLives));
 
+}
+
+/** PRESS TAB TO PAUSE GAME **/
+if keyboard_check_pressed(vk_tab) {
+   paused = !paused;
+}
+if(paused) {
+   instance_deactivate_all(1);
+   draw_text(room_width/2, room_height/2, "PAUSED");
+}
+else {
+   instance_activate_all();
 }

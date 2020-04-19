@@ -14,9 +14,17 @@ global.enemyHealthRate = 1.5;
 // Enemy Weapon Damage
 global.enemyWepDmgRate = 3;
 // Enemy Shot Speed
-global.enemyFireRate = 1.5;
+global.enemyFireRate *= .65;
 // Enemy Speed
 global.enemySpeed = 8;
+
+  // PLAYER MOVEMENT & SHOOTING
+global.baseSpeed += 4;
+global.boostSpeed += 4;
+global.shootingRate -= 4;
+
+  // SCORE
+global.scoreRate = 2;
 
 // Go to first room
 room_goto(rm_world1_level1);

@@ -3,11 +3,11 @@
 action_set_relative(1);
 
 action_sound(snd_explosion, 0); // explosion sound
-action_set_score(25); // Gives +25 points
 enemyHealth--; // reduces enemyhealth
 
 // Enemy Dead
 if enemyHealth == 0 {
+	score += (50 * global.scoreRate);
 	instance_create_layer(x + 0, y + 0, "Instances", obj_explosion);
     instance_destroy();
     }
