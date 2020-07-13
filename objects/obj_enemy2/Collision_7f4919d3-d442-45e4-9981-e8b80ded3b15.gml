@@ -18,3 +18,5 @@ else if (enemyHealth < 3) {
 }
 
 action_set_relative(0);
+
+
