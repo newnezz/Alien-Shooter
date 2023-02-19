@@ -5,7 +5,7 @@ Well my friend, look no further as our game was made on a shoe string budget.
 In a time when quarantine was required, one man, with to much time decided to go on an quest.
 A quest to create the best alien killing space shooter ever made!
 
-<h2> Lore </h2>
+<h2> Story </h2>
 <img src="./lhoShip.png" />
 Meet space commander Lee Harvey Oswald.<br> 
 He will be your key to the stars! <br><br>
