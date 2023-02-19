@@ -6,15 +6,28 @@ In a time when quarantine was required, one man, with to much time decided to go
 A quest to create the best alien killing space shooter ever made!
 
 <h2> Lore </h2>
-Meet space commander Lee Harvey Oswald <>
-He will be your key to the stars! <br>
-Do you dare travel with him <span><img src="https://media.giphy.com/media/Yrec8KD6LVdqocgHYM/giphy.gif" height=25 width=25/></span> into the unknown!<span><img src="https://media.giphy.com/media/Yrec8KD6LVdqocgHYM/giphy.gif" height=25 width=25/></span>
+<img src="./lhoShip.png" />
+Meet space commander Lee Harvey Oswald.<br> 
+He will be your key to the stars! <br><br>
+When his mother and father were shot in an alleyway in Hell's kitchen..<br>
+a man told him to become a dark guardian and defend there honor.<br>
+However, Oswald didn't like his parents, so he told the man to no thanks.<br><br>
+Instead, he decided to join the galactic border patrol and stop illegal aliens<br>
+from entering our airspace. Mostly because it paid really well.<br><br>
+Things took a turn when he won the yearly shoots and ladders tournament.<br>
+His superior officer was the reining champion and couldn't stand the loss.<br>
+So, as punishment, he sent Commander Lee to try and stop the 5 alien families.<br><br>
+Little did they know, this mission would be the very mission a game would be made about.<br>
+That's the game you are looking at the ReadMe file about.
+<br><br><br>
+<p align="center">Do you dare travel with him <span><img src="https://media.giphy.com/media/XneUfdFe2bdCzDqz6P/giphy.gif" height=25 width=25/></span> into the unknown?!<span><img src="https://media.giphy.com/media/XneUfdFe2bdCzDqz6P/giphy.gif" height=25 width=25/></span></p>
 
 <h2> Behold! </h2>
 
-- 25 unique levels (really only 5)
-- 5 bosses from 'out of this world'
-- Upgrades that almost matter
+  - 25 unique levels (sort of)
+  - Upgrades that almost matter
+  - 5 bosses from 'out of this world'
+  
 
 <h3> State of the art visuals <h3>
 
