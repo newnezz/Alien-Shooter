@@ -32,10 +32,10 @@ That's the game you are looking at the ReadMe file about.
 
 <h3> State of the art visuals <h3>
 
-<img src="./WarOnMars.jpeg" height=500 width=500/>
-<img src="./AlienShip.jpeg" height=500 width=500/>
 <div align="center">
-<img src="./AlienTriangle.jpeg" height=500 width=500 />
+  <img src="./WarOnMars.jpeg" height=500 width=500/>
+  <img src="./AlienShip.jpeg" height=500 width=500/>
+  <img src="./AlienTriangle.jpeg" height=500 width=500 />
 </div>
 
 <div align="center">
