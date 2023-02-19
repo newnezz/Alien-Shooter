@@ -9,7 +9,7 @@ A quest to create the best alien killing space shooter ever made!
 <img src="./lhoShip.png" />
 Meet space commander Lee Harvey Oswald.<br> 
 He will be your key to the stars! <br><br>
-When his mother and father were shot in an alleyway in Hell's kitchen..<br>
+When his mother and father were shot in Hell's kitchen..<br>
 a man told him to become a dark guardian and defend there honor.<br>
 However, Oswald didn't like his parents, so he told the man to no thanks.<br><br>
 Instead, he decided to join the galactic border patrol and stop illegal aliens<br>
