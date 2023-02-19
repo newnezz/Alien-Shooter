@@ -1,11 +1,14 @@
-<h1> Alien Shooter </h1>
+<h1> <span><img src="https://media.giphy.com/media/ygwYWMzryjq2ka87QY/giphy.gif" height=50 width=50 /></span> Alien Shooter </h1>
 
-Sick of playing AAA games with $100+ million budgets with photorealistic visuals and enough content for a life time?
-Well my friend, look no further as our game was made on a shoe string budget, with visuals..with a...retro feel!
+Sick of playing AAA games with $100+ million budgets and photorealistic visuals?
+Well my friend, look no further as our game was made on a shoe string budget.
+In a time when quarantine was required, one man, with to much time decided to go on an quest.
+A quest to create the best alien killing space shooter ever made!
 
 <h2> Lore </h2>
-In a time whe quarantine was required, one man, with to much time decided to go on an quest.
-A quest to create the best alien killing space shooter ever made!
+Meet space commander Lee Harvey Oswald <>
+He will be your key to the stars! <br>
+Do you dare travel with him <span><img src="https://media.giphy.com/media/Yrec8KD6LVdqocgHYM/giphy.gif" height=25 width=25/></span> into the unknown!<span><img src="https://media.giphy.com/media/Yrec8KD6LVdqocgHYM/giphy.gif" height=25 width=25/></span>
 
 <h2> Behold! </h2>
 
@@ -15,15 +18,11 @@ A quest to create the best alien killing space shooter ever made!
 
 <h3> State of the art visuals <h3>
 
-<>
-
-<h3> World class music <h3>
-
-<>
-
-<h3> Next gen gameplay <h3>
-
-<>
+<img src="./WarOnMars.jpeg" height=500 width=500/>
+<img src="./AlienShip.jpeg" height=500 width=500/>
+<div align="center">
+<img src="./AlienTriangle.jpeg" height=500 width=500 />
+</div>
 
 <div align="center">
   <h2> Download and Play Today! </h2>
