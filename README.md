@@ -12,7 +12,7 @@ He will be your key to the stars! <br><br>
 When his mother and father were shot in Hell's kitchen..<br>
 a man told him to become a dark guardian and defend their honor.<br><br>
 However, Oswald didn't like his parents, so he told the man no thanks.<br>
-The man was sad, so he waddled a way, waddle...waddle.<br><br>
+The man was sad, so he waddled away, waddle...waddle.<br><br>
 Instead, he decided to join the galactic border patrol and stop illegal aliens<br>
 from entering our airspace. Mostly because it paid really well.<br><br>
 Things took a turn when he won the yearly shoots and ladders tournament.<br>
